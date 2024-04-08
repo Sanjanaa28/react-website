@@ -1,8 +1,7 @@
-// App.js
+// app.js
 
 import React from "react";
-import "./App.css";
-import backgroundImage from "https://tse1.mm.bing.net/th?id=OIP.H_H--SsK8bBZk6X7H4KW0AHaFR&pid=Api&P=0&h=180";
+import ReactDOM from "react-dom";
 
 function App() {
     return (
@@ -33,4 +32,4 @@ function App() {
     );
 }
 
-export default App;
+ReactDOM.render(<App />, document.getElementById("root"));
